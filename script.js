@@ -87,13 +87,3 @@ function hexParaDecimal() {
   document.getElementById("decimalHex").value = dec;
   res.innerHTML = `Hexadecimal: <strong>${hex.toUpperCase()}</strong> → Decimal: <strong>${dec}</strong>`;
 }
-
-function abrirConversor(tipo) {
-  // Alterar texto exibido
-  document.getElementById("nomeEscolha").textContent = tipo;
-
-  // Alterar botão ativo
-  const botoes = document.querySelectorAll(".tab");
-  botoes.forEach(btn => btn.classList.remove("active"));
-  event.target.classList.add("active");
-}

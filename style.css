@@ -1,51 +1,64 @@
 body {
-    font-family: Arial, sans-serif;
-    background: #f4f4f4;
-    padding: 20px;
-    text-align: center;
-  }
-  .tabs {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-    margin-bottom: 15px;
-  }
-  .tab {
-    padding: 8px 15px;
-    border: none;
-    cursor: pointer;
-    background: #ddd;
-    border-radius: 5px;
-    font-size: 16px;
-  }
-  .tab.active {
-    background: #4CAF50;
-    color: white;
-  }
-  #escolha {
-    font-size: 18px;
-    font-weight: bold;
-    margin-top: 10px;
-    margin-bottom: 15px;
-  }
-  .conteudo {
-    display: none;
-    padding: 15px;
-    background: white;
-    border-radius: 8px;
-    max-width: 400px;
-    margin: auto;
-    box-shadow: 0 0 8px rgba(0,0,0,0.2);
-  }
-  .conteudo.active {
-    display: block;
-  }
-  input {
-    padding: 8px;
-    font-size: 16px;
-    width: 80%;
-    margin-bottom: 10px;
-  }
-  p {
-    font-size: 16px;
-  }
+  font-family: Arial, sans-serif;
+  background: #0f172a;
+  color: white;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin-top: 40px;
+  background: #1e293b;
+  padding: 20px;
+  border-radius: 10px;
+  display: inline-block;
+  min-width: 320px;
+}
+
+h1 {
+  margin-bottom: 15px;
+}
+
+.tabs {
+  margin-bottom: 15px;
+}
+
+.tab {
+  background: #334155;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin: 2px;
+}
+
+.tab.active {
+  background: #4ade80;
+}
+
+label {
+  display: block;
+  margin-top: 8px;
+  font-size: 0.9em;
+  color: #a3a3a3;
+}
+
+input {
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 5px;
+  text-align: center;
+  width: 100%;
+}
+
+.resultado {
+  margin-top: 15px;
+  font-size: 1.1em;
+  color: #facc15;
+  background: rgba(255,255,255,0.05);
+  padding: 8px;
+  border-radius: 5px;
+}
